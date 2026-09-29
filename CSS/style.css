@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #ea5038,
+        #ff00aa,
+        #ffdd01
+    );
+font-family: 'Libre Baskerville', serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0%;
+}
+.Perfil{
+  width: 350px;
+    margin: 60px auto;
+    background-color: rgb(252, 252, 252);
+    padding: 30px;
+    border-radius: 35px;
+    text-align: center;
+     position: fixed;
+      border: 5px solid    #d80a93;
+}
+.alex {
+     width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid   #f107a3;
+    padding: 4px;
+  }
+.insta{
+    color: black;
+    width: 350px;
+    z-index: 200;
+    margin: 60px auto;
+     position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+    
+   
+}
+ h1{
+    color: black;
+
+ }
+ h3{
+    color: black;
+ }
+ p{
+    color: black;
+ }
+.edit{
+     background: linear-gradient(
+        135deg,
+        #ec553e,
+        #f107a3,
+        #ffdd01
+    );
+  color: aliceblue;            
+  font-size: 16px;           
+  padding: 10px 20px;       
+  border: none;              
+  border-radius: 8px;      
+  cursor: pointer;  
+}
+.sair{
+     background: linear-gradient(
+        135deg,
+        #ec553e,
+        #f107a3,
+        #ffdd01
+    );
+  color: aliceblue;            
+  font-size: 16px;           
+  padding: 10px 20px;       
+  border: none;              
+  border-radius: 8px;      
+  cursor: pointer;  
+}
